@@ -1,0 +1,29 @@
+body{
+	font-family: sans-serif;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	background-image: url("pexels.jpeg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+table{
+	border: 1px solid black;
+	border-collapse: collapse;
+	opacity: 0.95;
+	width:85%;
+
+}
+th{
+	background-color: red;
+	color: white;
+	border: 1px;
+}
+tr:nth-child(even){
+	background: #4286f4;
+}
+tr:nth-child(odd){
+	background: #ffffff;
+}
+.header{
+	background-color: #4286f4;
+}
